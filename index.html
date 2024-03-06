@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Khuzaima Ahsan</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li> 
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Khuzaima Ahsan</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li> 
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </div>
+    </div>
+    </nav>
+     <section id="profile">
+        <div class="section_pic-container">
+            <img src="./profile.png" alt="">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="section_text_p2">Khuzaima Ahsan</h1>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./Resume - Web Development.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href('#contact')">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <i style="font-size:35px" class="fa" onclick="location.href='https://www.linkedin.com/in/khuzaima-ahsan-609677227/'">&#xf0e1;</i>  
+                <i style="font-size:35px" class="fa" onclick="location.href='https://github.com/k-ahsan07'">&#xf09b;</i>  
+            </div>
+
+        </div>
+     </section>
+     <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <p class="title">About Me</p>
+        <div class="section-container">
+            <div class="section-pic-container">
+                 <img  src="./about.png" alt="" class="about-pic"/> 
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                      <div class="details-container">
+                        <i class="fa fa-spinner fa-pulse"></i>
+                         <h3>Experience</h3>
+                        <p>6 months <br/>FrontEnd Developer</p> 
+                    </div>  
+                    <div class="details-container">
+                        <i style='font-size:24px' class='fa'>&#xf19d;</i>
+                        <h3>Education</h3>
+                        <p>Bs Computer Science Degree</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Hello! I'm Khuzaima Ahsan, a Computer Science enthusiast pursuing my Bachelor's degree. With a passion for coding and problem-solving, I've delved into diverse projects, honing skills in software development. Eager to contribute innovative solutions, I'm on a journey to transform ideas into impactful digital realities. Connect with me and explore my coding adventures!</p>
+                </div>
+            </div>
+        </div>
+        <img src="arrow.png" alt="" class="arrow" onclick="location.href='./#experience'">
+    </section>
+<section id="experience">
+    <p class="section_text_p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience_details-container">
+        <div class="about-container">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Achieved</h2>
+                <div class="article-container">
+                    <article>
+                        <i style="font-size:24px" class="fa">&#xf058;</i>
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <i style="font-size:24px" class="fa">&#xf058;</i>
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <i style="font-size:24px" class="fa">&#xf058;</i>
+                        <div>
+                            <h3>Javascript</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <i style="font-size:24px" class="fa">&#xf058;</i>
+                        <div>
+                            <h3>React</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <i style="font-size:24px" class="fa">&#xf058;</i>
+                        <div>
+                            <h3>Node</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <i style="font-size:24px" class="fa">&#xf058;</i>
+                        <div>
+                            <h3>SQL</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <div>
+                    <article>
+                        <i style="font-size:24px" class="fa">&#xf058;</i>
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="arrow.png" alt="" class="arrow" onclick="location.href='./#projects'">
+</section>
+<section id="projects">
+    <p class="section_text_p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+        <div class="about-container">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./project1.png" alt="" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/k-ahsan07/RealEstate'">
+                Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://beautiful-halva-137a5b.netlify.app/'">
+                Live Demo</button>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./project2.png" alt="" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/k-ahsan07/STOPWATCH'">
+                Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://grand-medovik-7cc785.netlify.app/'">
+                Live Demo</button>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./project3.png" alt="" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/k-ahsan07/CALCULATOR-USING-REACT'">
+                Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://64b564f47c737b20d6ea9871--sweet-raindrop-cf58bd.netlify.app/'">
+                Live Demo</button>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./project4.png" alt="" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project Four</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+                Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://64be7e365c891300919705b6--aquamarine-parfait-593988.netlify.app/'">
+                Live Demo</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <img src="arrow.png" alt="" class="arrow" onclick="location.href='./#contact'">
+</section>
+<section id="contact">
+    <p class="section_text_p1">Get In Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <i style="font-size:24px" class="fa">&#xf0e0;</i>
+            <p><a href="mailto:khuzaimaahsan07@gmail.com">khuzaimaahsan07@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <i style="font-size:24px" class="fa">&#xf08c;</i>
+            <p><a href="https://www.linkedin.com/in/khuzaima-ahsan-609677227/">LinkedIn</a></p>
+        </div>
+    </div>
+</section>
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li> 
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
